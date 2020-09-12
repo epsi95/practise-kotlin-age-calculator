@@ -58,6 +58,7 @@ class MainActivity : AppCompatActivity() {
             todayMonth,
             todayDay
         )
+        datePickerDialogue.datePicker.maxDate = Date().time;
         datePickerDialogue.show()
     }
 
